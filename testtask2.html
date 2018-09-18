@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            testtask2
+        </title>
+        <link rel="stylesheet" href = "testtask2.css">
+    </head>
+    <body>
+        <div  class = "window">
+            <button class = "window1" onclick = "writeSee(event, 'commment')" >COMMENT</button>
+            <button class = "window1" onclick = "writeSee(event, 'pooost')" >POST</button>
+        </div>
+        <div id = "commment" class = "windowDiv">
+            <h3>Write a COMMENTTTT</h3>
+            <input type = "text" id = "status" name = "status"/><br/>
+            <input type = "button"  onclick = "clickIt()" value = "POST" />
+        </div>
+        <div id = "pooost" class = "windowDiv">
+            <h3>SEE YOUR POST</h3>
+            <textarea rows="4" cols="50" id = "texta"></textarea>
+        </div>
+        <script src = "testtask2.js"></script>
+    </body>
+</html>

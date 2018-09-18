@@ -1,0 +1,15 @@
+body {
+    background-color: #e6f7ff;
+}
+form {
+    height: 400px;
+    width: 400px;
+    border: 1px dotted #753e5a;
+    background-color: #ffe6f2;
+}
+.inputStyle {
+    background-color: #ff99cc;
+
+
+  
+}

@@ -1,0 +1,29 @@
+body {
+    background-color: #ff99c2;
+}
+.window {
+    overflow: hidden;
+    border: 1px solid #ff3385;
+    background-color: #ff99c2;
+}
+
+.window button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 20px 20px;
+    font-size: 17px;
+}
+
+
+.window button:hover {
+    background-color: pink;
+}
+
+.windowDiv {
+    display: none;
+    padding: 30px 30px;
+    border: 1px solid #ff3385;
+    border-top: none;
+    background-color: #ff3385;}
